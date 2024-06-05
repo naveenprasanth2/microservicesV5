@@ -12,3 +12,9 @@ eureka:
     hostname: localhost
     lease-expiration-duration-in-seconds: 20
     lease-renewal-interval-in-seconds: 10
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
